@@ -1,21 +1,2 @@
-# SpotifyWebApi
-
-**TODO: Add description**
-
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `spotify_web_api` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:spotify_web_api, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/spotify_web_api](https://hexdocs.pm/spotify_web_api).
-
+# Spotify-Web-API
+Je réalise une App Spotify afin de pouvoir interagir avec leur Web API de Spotify. Pour l'exemple, je vais d'abord récupérer la liste des albums d'orlesan, ensuite, je vais permettre de retirer les singles et enfin de les trier en fonction de la date de parution.

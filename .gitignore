@@ -7,9 +7,6 @@
 # Ignorer le fichier config.exs dans le dossier config
 /config/config.exs
 
-# Ne pas ignorer config.example.exs
-!/config/config.example.exs
-
 # Vous pouvez ajouter d'autres fichiers ou dossiers à ignorer ici
 *.log
 *.tmp
