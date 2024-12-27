@@ -1,26 +1,15 @@
-# The directory Mix will write compiled artifacts to.
-/_build/
-
-# If you run "mix test --cover", coverage assets end up here.
-/cover/
-
-# The directory Mix downloads your dependencies sources to.
+# Ignorer le dossier deps
 /deps/
 
-# Where third-party dependencies like ExDoc output generated docs.
-/doc/
+# Ignorer le dossier _build
+/_build/
 
-# Ignore .fetch files in case you like to edit your project deps locally.
-/.fetch
+# Ignorer le fichier config.exs dans le dossier config
+/config/config.exs
 
-# If the VM crashes, it generates a dump, let's ignore it too.
-erl_crash.dump
+# Ne pas ignorer config.example.exs
+!/config/config.example.exs
 
-# Also ignore archive artifacts (built via "mix archive.build").
-*.ez
-
-# Ignore package tarball (built via "mix hex.build").
-spotify_web_api-*.tar
-
-# Temporary files, for example, from tests.
-/tmp/
+# Vous pouvez ajouter d'autres fichiers ou dossiers à ignorer ici
+*.log
+*.tmp
