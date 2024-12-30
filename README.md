@@ -14,5 +14,10 @@ Pour tester les fonctionnalités, exécutez la commande suivante dans votre term
 
 ```bash
 iex -S mix 
+SpotifyWebApi.list_albums                   (Fonctionnalité 1)
+SpotifyWebApi.list_albums_without_singles   (Fonctionnalité 2)
+SpotifyWebApi.list_albums_sorted_by_date    (Fonctionnalité 3)
 
-iex -S mix test "(pour les test)"
+"(pour les test)"
+iex -S mix test 
+TestSpotifyWebApi.test
